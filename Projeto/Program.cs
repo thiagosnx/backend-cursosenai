@@ -33,9 +33,9 @@ namespace Projeto
                 PessoaJuridica pj = new PessoaJuridica(); 
                 pj.nome = var_name;
                 pj.endereco = var_endereco;
-                Console.WriteLine("CPF:");
+                Console.WriteLine("CNPJ:");
                 pj.cnpj = Console.ReadLine();
-                Console.WriteLine("RG:");
+                Console.WriteLine("IE:");
                 pj.ie = Console.ReadLine();
                 Console.WriteLine("Valor:");
                 val_pag = float.Parse(Console.ReadLine());
